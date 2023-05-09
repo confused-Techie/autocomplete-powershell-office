@@ -1,0 +1,27 @@
+{
+  "name": "autocomplete-powershell-office",
+  "version": "1.0.0",
+  "description": "Provides Office Suite PowerShell Module Autocompletions for Pulsar",
+  "main": "./lib/main.js",
+  "scripts": {
+    "update": "node ./update/update.js"
+  },
+  "keywords": [
+    "pulsar-package",
+    "pulsar-edit",
+    "autocomplete-powershell"
+  ],
+  "author": "confused-Techie",
+  "license": "MIT",
+  "repository": "https://github.com/confused-Techie/autocomplete-powershell-office",
+  "providedServices": {
+    "autocomplete-powershell.modules": {
+      "versions": {
+        "1.0.0": "getProvider"
+      }
+    }
+  },
+  "devDependencies": {
+    "front-matter": "^4.0.2"
+  }
+}
